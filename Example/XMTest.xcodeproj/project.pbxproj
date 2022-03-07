@@ -248,6 +248,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = oauth2;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = MHT77R6ZY9;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -519,6 +522,7 @@
 			baseConfigurationReference = C55690E295EEECED195CE1B3 /* Pods-XMTest_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MHT77R6ZY9;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XMTest/XMTest-Prefix.pch";
 				INFOPLIST_FILE = "XMTest/XMTest-Info.plist";
@@ -535,6 +539,7 @@
 			baseConfigurationReference = D3B9921ABAB9533530006F20 /* Pods-XMTest_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MHT77R6ZY9;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XMTest/XMTest-Prefix.pch";
 				INFOPLIST_FILE = "XMTest/XMTest-Info.plist";
