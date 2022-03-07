@@ -3,7 +3,7 @@ use_frameworks!
 platform :ios, '9.0'
 
 target 'XMTest_Example' do
-  pod 'XMTest', :path => '../'
+  pod 'XMLYTest', :path => '../'
 
   target 'XMTest_Tests' do
     inherit! :search_paths

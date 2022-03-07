@@ -12,6 +12,6 @@
 
 #import "XMTestManager.h"
 
-FOUNDATION_EXPORT double XMTestVersionNumber;
-FOUNDATION_EXPORT const unsigned char XMTestVersionString[];
+FOUNDATION_EXPORT double XMLYTestVersionNumber;
+FOUNDATION_EXPORT const unsigned char XMLYTestVersionString[];
 

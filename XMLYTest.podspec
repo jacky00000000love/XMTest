@@ -7,8 +7,8 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'XMTest'
-  s.version          = '0.1.0'
+  s.name             = 'XMLYTest'
+  s.version          = '0.2.0'
   s.summary          = 'A short description of XMTest.'
 
 # This description is used to generate tags and improve search results.

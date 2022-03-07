@@ -1,0 +1,6 @@
+framework module XMLYTest {
+  umbrella header "XMLYTest-umbrella.h"
+
+  export *
+  module * { export * }
+}

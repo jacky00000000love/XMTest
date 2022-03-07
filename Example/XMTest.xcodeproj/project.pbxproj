@@ -24,6 +24,7 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		B6A8001327D60CE80058B190 /* XMLYTest.podspec in Resources */ = {isa = PBXBuildFile; fileRef = B6A8001227D60CE80058B190 /* XMLYTest.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +40,6 @@
 /* Begin PBXFileReference section */
 		1BED929D8ED6B1F0917FB193 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		4BADCC8F5C1BD2AE4D7862C1 /* Pods_XMTest_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XMTest_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5A6019BEA166CAD5E2457600 /* XMTest.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = XMTest.podspec; path = ../XMTest.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6003F58A195388D20070C39A /* XMTest_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XMTest_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -62,6 +62,7 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		86131365CAAD79F03F6ABFC4 /* Pods_XMTest_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XMTest_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B6A8001227D60CE80058B190 /* XMLYTest.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = XMLYTest.podspec; path = ../XMLYTest.podspec; sourceTree = "<group>"; };
 		C55690E295EEECED195CE1B3 /* Pods-XMTest_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XMTest_Example.debug.xcconfig"; path = "Target Support Files/Pods-XMTest_Example/Pods-XMTest_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		D3B9921ABAB9533530006F20 /* Pods-XMTest_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XMTest_Example.release.xcconfig"; path = "Target Support Files/Pods-XMTest_Example/Pods-XMTest_Example.release.xcconfig"; sourceTree = "<group>"; };
 		DCCAD6B5E0F1935CE8CF7502 /* Pods-XMTest_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XMTest_Tests.debug.xcconfig"; path = "Target Support Files/Pods-XMTest_Tests/Pods-XMTest_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -178,7 +179,7 @@
 		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				5A6019BEA166CAD5E2457600 /* XMTest.podspec */,
+				B6A8001227D60CE80058B190 /* XMLYTest.podspec */,
 				E8026B25624C4A6A2B6BAF07 /* README.md */,
 				1BED929D8ED6B1F0917FB193 /* LICENSE */,
 			);
@@ -285,6 +286,7 @@
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
+				B6A8001327D60CE80058B190 /* XMLYTest.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -374,11 +376,11 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-XMTest_Example/Pods-XMTest_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/XMTest/XMTest.framework",
+				"${BUILT_PRODUCTS_DIR}/XMLYTest/XMLYTest.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XMTest.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XMLYTest.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
