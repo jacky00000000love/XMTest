@@ -1,0 +1,6 @@
+framework module Pods_XMTest_Example {
+  umbrella header "Pods-XMTest_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

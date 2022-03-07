@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/oauth2/XMTest'
+  s.homepage         = 'https://github.com/jacky00000000love/XMTest'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'oauth2' => 'peng.yang@ximalaya.com' }
-  s.source           = { :git => 'https://github.com/oauth2/XMTest.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/jacky00000000love/XMTest.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
